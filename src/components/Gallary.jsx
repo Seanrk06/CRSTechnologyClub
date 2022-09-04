@@ -20,19 +20,19 @@ const files = [
         './assets/Horanzy3.jpg',
     },
     {
-      name: 'Mr. Allen Chen (Sysyems engineer)',
+      name: 'Mr. Allen Chen (Systems engineer)',
       size: 'May 26, 2022',
       source:
         './assets/Chen1.jpg',
     },
     {
-      name: 'Mr. Allen Chen (Sysyems engineer)',
+      name: 'Mr. Allen Chen (Systems engineer)',
       size: 'May 26, 2022',
       source:
         './assets/Chen2.jpg',
     },
     {
-      name: 'Mr. Allen Chen (Sysyems engineer)',
+      name: 'Mr. Allen Chen (Systems engineer)',
       size: 'May 26, 2022',
       source:
         './assets/Chen3.jpg',
