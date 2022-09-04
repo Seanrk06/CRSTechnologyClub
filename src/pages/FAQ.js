@@ -9,7 +9,7 @@ function FAQ() {
     <div>
         <Navbar/>
         <Header
-        heading="Frequently asked questions"
+        heading="Frequently Asked Questions"
         text="Click on each arrow to get more information"
         />
         <Questions/>

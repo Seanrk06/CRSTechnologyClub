@@ -9,7 +9,7 @@ function PastPresenters() {
     <div>
         <Navbar/>
         <Header
-        heading="All of our past presenters"
+        heading="All of Our Past Presenters"
         text="List of all presenters from 2022-present"
         />
         <PastPresenterList/>

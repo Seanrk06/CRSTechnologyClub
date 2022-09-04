@@ -3,7 +3,7 @@ import { ChevronDownIcon } from '@heroicons/react/24/outline'
 
 const faqs = [
   {
-    question: "What will I get out of this club?",
+    question: "What Will I Get Out of This Club?",
     answer:
       "By being a part of this club you will learn about careers in areas of STEM you may find interest in, have the opportunity to learn from and speak one on one with industry leaders, and be a part of hands on experiments and demonstrations.",
   },
@@ -28,7 +28,7 @@ const faqs = [
       "We have openings and will have openings in the future. If your active in the club we will definitely consider it in future appointments."
   },
   {
-    question: "Why Should I Join the Newsletter and Remind Arent They the Same Thing?",
+    question: "Why Should I Join the Newsletter and Remind Are They the Same Thing?",
     answer:
       "No. Although both are used for similar purposes joining both is highly recommended and by only joining one you will miss out on opportunities offered to those on both."
   },
