@@ -1,8 +1,5 @@
 import React, {useState} from 'react';
 import MailchimpSubscribe from "react-mailchimp-subscribe";
-import ErrorAlert from './errorAlert';
-import LoadingAlert from './loadingAlert';
-import SucessAlert from './sucessAlert';
 
 const CustomForm = ({ status, message, onValidated,  setErrorState, setSucessState, setLoadingState}) => {
     // const {modalOpen, setModalOpen} = useGHStContext();

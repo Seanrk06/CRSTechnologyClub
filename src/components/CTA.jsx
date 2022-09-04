@@ -1,16 +1,7 @@
 import React from 'react'
 
-import {
-    ArrowPathIcon,
-    Bars3Icon,
-    CloudArrowUpIcon,
-    CogIcon,
-    LockClosedIcon,
-    ServerIcon,
-    ShieldCheckIcon,
-    XMarkIcon,
-  } from '@heroicons/react/24/outline'
-  import { ArrowTopRightOnSquareIcon, ChevronRightIcon } from '@heroicons/react/20/solid'
+
+  import { ArrowTopRightOnSquareIcon } from '@heroicons/react/20/solid'
 
 function CTA() {
   return (
