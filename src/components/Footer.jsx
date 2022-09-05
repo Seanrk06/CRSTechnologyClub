@@ -39,7 +39,7 @@ const footerNavigation = {
       // },
       {
         name: 'GitHub',
-        href: '#',
+        href: 'https://github.com/TechnologyClub88/CRSTechnologyClub',
         icon: (props) => (
           <svg fill="currentColor" viewBox="0 0 24 24" {...props}>
             <path
