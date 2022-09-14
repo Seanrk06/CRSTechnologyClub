@@ -13,6 +13,7 @@ const navigation = [
     { name: 'Calender', href: '/calender1' },
     { name: 'Fequently Asked Questions', href: '/FAQ' },
     { name: 'Past Presenters', href: '/pastpresenters' },
+    { name: 'Scheduled Presenter', href: '/CurrentPresenter' },
     { name: 'Our Page on the School Website', href: 'https://www.crsd.org/Domain/622' },
   ]
 
@@ -43,7 +44,7 @@ function Navbar() {
                     <a
                       key={item.name}
                       href={item.href}
-                      className="text-base font-medium text-white hover:text-gray-300"
+                      className="text-base font-small text-white hover:text-gray-300"
                     >
                       {item.name}
                     </a>

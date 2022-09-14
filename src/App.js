@@ -11,6 +11,8 @@ import CalenderPage4 from './pages/calenderpages/CalenderPage4';
 import CalenderPage5 from './pages/calenderpages/CalenderPage5';
 import PastPresenters from './pages/PastPresenters';
 import FAQ from './pages/FAQ';
+import CurrentPresenter from './pages/CurrentPresenter';
+import JoinEmailList from './pages/JoinEmailList';
 
 
 export default function App() {
@@ -28,6 +30,8 @@ export default function App() {
           <Route exact path="/FAQ" element={<FAQ/>} />
           <Route exact path="/404" element={<PageNotFound/>} />
           <Route exact path="*" element={<PageNotFound/>} />
+          <Route exact path="CurrentPresenter" element={<CurrentPresenter/>} />
+          {/* <Route exact path="JoinEmailList" element={<JoinEmailList/>} /> */}
 
           <Route exact path="/test"  element ={<Test/>}/>
         </Routes>

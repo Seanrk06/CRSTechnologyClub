@@ -78,18 +78,12 @@ export default function Calender() {
       <section className="mt-12">
         <h2 className="font-semibold text-gray-900">Upcoming events</h2>
         <ol className="mt-2 divide-y divide-gray-200 text-sm leading-6 text-gray-500">
-          {/* <li className="py-4 sm:flex">
-            <time dateTime="2022-01-17" className="w-28 flex-none">
-              Thursday, September 15
-            </time>
-            <p className="mt-2 flex-auto sm:mt-0">Introduction meeting planned</p>
-          </li>
           <li className="py-4 sm:flex">
             <time dateTime="2022-01-17" className="w-28 flex-none">
-              Thursday, September 29
+              Thursday, September 22
             </time>
-            <p className="mt-2 flex-auto sm:mt-0">Introduction meeting planned</p>
-          </li> */}
+            <p className="mt-2 flex-auto sm:mt-0">Our first presenter will be Mr. Max Brand an aerospace engineer. He is scheduled for 2:20-3:00pm in room A13 and to check out his information click <a href='/CurrentPresenter' className='underline'>here</a> or visit the Scheduled Presenter page.</p>
+          </li>
           <li className="py-4 sm:flex">
             <time dateTime="2022-01-17" className="w-28 flex-none">
               Thursday, October 13

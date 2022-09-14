@@ -26,7 +26,7 @@ const monthData1 = [
             { date: '2022-09-19', isCurrentMonth: true },
             { date: '2022-09-20', isCurrentMonth: true },
             { date: '2022-09-21', isCurrentMonth: true },
-            { date: '2022-09-22', isCurrentMonth: true },
+            { date: '2022-09-22', isCurrentMonth: true,  eventScheduled: true,},
             { date: '2022-09-23', isCurrentMonth: true },
             { date: '2022-09-24', isCurrentMonth: true },
             { date: '2022-09-25', isCurrentMonth: true },

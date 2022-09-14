@@ -36,6 +36,7 @@ const files = [
       size: 'May 26, 2022',
       source:
         './assets/Chen3.jpg',
+      href: "https://www.udemy.com/"
     },
     
 
@@ -72,8 +73,8 @@ function Gallary() {
                         <div
                           className={classNames(
                             file.current
-                              ? 'ring-2 ring-offset-2 ring-indigo-500'
-                              : 'focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-indigo-500',
+                              ? 'ring-2 ring-offset-2 ring-gray-900'
+                              : 'focus-within:ring-2 focus-within:ring-offset-2 focus-within:ring-offset-gray-100 focus-within:ring-gray-900',
                             'group block w-full aspect-w-10 aspect-h-7 rounded-lg bg-gray-100 overflow-hidden'
                           )}
                         >
@@ -85,9 +86,11 @@ function Gallary() {
                               'object-cover pointer-events-none'
                             )}
                           />
-                          <button type="button" className="absolute inset-0 focus:outline-none">
-                            <span className="sr-only">View details for {file.name}</span>
-                          </button>
+                          <form action={file.source}>
+                            <button type="submit" className="absolute inset-0 focus:outline-none">
+                              <span className="sr-only">View details for {file.name}</span>
+                            </button>
+                          </form>
                         </div>
                         <p className="pointer-events-none mt-2 block truncate text-sm font-medium text-gray-900">
                           {file.name}
