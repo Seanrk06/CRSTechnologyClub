@@ -8,7 +8,7 @@ function CurrentPresenterList() {
                 Mr. Max Brand
             </p>
             <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
-            The Technology Club is excited to have Mr. Max Brand an Aerospace Engineer virtually on September 22, at 2:20 in room A13. Over his career he has had extensive experience in the industry, and so far in his career he has worked on jet engines at the world-renowned <a href='https://prattwhitney.com/' className='underline'>Pratt & Whitney</a>, and spacecraft at <a href='https://momentus.space' className='underline'>Momentus</a> a company pioneering infrastructure services to support the growing space economy. Please make sure not to miss this opportunity and follow our instgram and remind for any updates.  Mr. Brand received both his Bachelors's and Master's degrees at MIT.
+            The Technology Club is excited to have Mr. Max Brand an Aerospace Engineer virtually on September 22, at 2:20 in room A13. He has extensive experience in the industry, and throughout his career he has worked on jet engines at the world-renowned <a href='https://prattwhitney.com/' className='underline'>Pratt & Whitney</a>, and spacecraft at <a href='https://momentus.space' className='underline'>Momentus</a> a company pioneering infrastructure services to support the growing space economy. Mr. Brand also received both his Bachelors's and Master's degrees at MIT. If you don't want to miss this opportunity follow our Instgram and Remind for any updates.
             </p>
         </div>
     </div>
