@@ -87,7 +87,7 @@ const CustomForm = ({ status, message, onValidated,  setErrorState, setSucessSta
                         onChange={(e)=>setEmail(e.target.value)}
                         type="email"
                         value={email}
-                        placeholder="School Email Only"
+                        placeholder="Non School Email"
                         isRequired
                         className="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900 m-3"
                     />
