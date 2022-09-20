@@ -12,9 +12,7 @@ import CalenderPage5 from './pages/calenderpages/CalenderPage5';
 import PastPresenters from './pages/PastPresenters';
 import FAQ from './pages/FAQ';
 import CurrentPresenter from './pages/CurrentPresenter';
-import JoinEmailList from './pages/JoinEmailList';
 import ContactUs from './pages/ContactUs';
-import JoinCanvasPage from './pages/JoinOurCanvas';
 
 
 export default function App() {
@@ -34,8 +32,6 @@ export default function App() {
           <Route exact path="*" element={<PageNotFound/>} />
           <Route exact path="/CurrentPresenter" element={<CurrentPresenter/>} />
           <Route exact path="/ContactUs" element={<ContactUs/>} />
-          <Route exact path="/JoinEmailList" element={<JoinEmailList/>} />
-          <Route exact path="/JoinCanvasPage" element={<JoinCanvasPage/>} />
           <Route exact path="/test"  element ={<Test/>}/>
         </Routes>
     </Router>
