@@ -14,7 +14,9 @@ const navigation = [
     { name: 'Fequently Asked Questions', href: '/FAQ' },
     { name: 'Past Presenters', href: '/pastpresenters' },
     { name: 'Scheduled Presenter', href: '/CurrentPresenter' },
-    { name: 'Our Page on the School Website', href: 'https://www.crsd.org/Domain/622' },
+    { name: 'School Web Page', href: 'https://www.crsd.org/Domain/622' },
+    { name: 'Contact Us', href: './ContactUs' },
+
   ]
 
 function Navbar() {

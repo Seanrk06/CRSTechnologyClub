@@ -13,7 +13,7 @@ function JoinEmailList() {
       <Navbar/>
       <Header
       heading="Join Our Email List!"
-      text="Theres no obligation to come to meetings or events and you can unsubscribe anytime."
+      text="No obligations and you can unsubscribe anytime."
       />
       <CustomEmail/>
       <Footer/>

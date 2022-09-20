@@ -24,9 +24,8 @@ const CustomForm = ({ status, message, onValidated,  setErrorState, setSucessSta
     }
 
     return (
-        
-        <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
-        <div className="bg-white py-8 px-4 shadow sm:rounded-lg sm:px-10">
+        <div className="mt-[-70px] sm:mx-auto sm:w-full sm:max-w-md grid place-items-center ">
+        <div className="py-8 px-4 shadow sm:rounded-lg sm:px-10">
         <form
             className="space-y-6"
             onSubmit={(e) => handleSubmit(e)}
@@ -58,7 +57,7 @@ const CustomForm = ({ status, message, onValidated,  setErrorState, setSucessSta
                         value={firstName}
                         placeholder="First Name"
                         isRequired
-                        className="block w-full appearance-none rounded-md border border-gray-300 px-3 py-2 placeholder-gray-400 shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+                        className="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900 m-3"
                     />
 
                     <input
@@ -99,7 +98,8 @@ const CustomForm = ({ status, message, onValidated,  setErrorState, setSucessSta
         </form>
 
         </div>
-        </div>
+        </div> 
+
  
     );
 };
