@@ -88,7 +88,7 @@ export default function Calender() {
             <time dateTime="2022-01-17" className="w-28 flex-none">
               Thursday, October 13
             </time>
-            <p className="mt-2 flex-auto sm:mt-0">To be decided</p>
+            <p className="mt-2 flex-auto sm:mt-0">Chemical Engineer (bio is coming)</p>
           </li>
         </ol>
       </section>

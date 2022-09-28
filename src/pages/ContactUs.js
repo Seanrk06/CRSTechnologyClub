@@ -15,8 +15,7 @@ function ContactUs() {
       <div className="flex content-center justify-center">
         {" "}
         <iframe
-          className=""
-          src="https://docs.google.com/forms/d/e/1FAIpQLSdgvaCdNEVoQvaZXhXLeoeIp_kvY3OPGPUNkxlJpHviOR_9Nw/viewform?embedded=true"
+          src="https://docs.google.com/forms/d/e/1FAIpQLSfxljJklQCLEBrnJbNNpZHM_8ZlRB37gz7ETNoWna0r3eahZA/viewform?embedded=true"
           width="640"
           height="730"
           frameborder="0"
