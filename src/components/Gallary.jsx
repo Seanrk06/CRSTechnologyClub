@@ -2,41 +2,52 @@ import React from 'react'
 
 const files = [
     {
-      name: 'Mr. Joe Horanzy (Electrical Engineer)',
+      name: 'Mr. Horanzy (Electrical Engineer)',
       size: 'April 28, 2022',
       source:
         './assets/Horanzy1.jpg',
     },
     {
-      name: 'Mr. Joe Horanzy (Electrical Engineer)',
-      size: 'April 28, 2022',
-      source:
-        './assets/Horanzy2.jpg',
-    },
-    {
-      name: 'Mr. Joe Horanzy (Electrical Engineer)',
+      name: 'Mr. Horanzy (Electrical Engineer)',
       size: 'April 28, 2022',
       source:
         './assets/Horanzy3.jpg',
     },
     {
-      name: 'Mr. Allen Chen (Systems engineer)',
+      name: 'Mr. Chen (Systems engineer)',
       size: 'May 26, 2022',
       source:
         './assets/Chen1.jpg',
     },
     {
-      name: 'Mr. Allen Chen (Systems engineer)',
+      name: 'Mr. Chen (Systems engineer)',
       size: 'May 26, 2022',
       source:
         './assets/Chen2.jpg',
     },
     {
-      name: 'Mr. Allen Chen (Systems engineer)',
+      name: 'Mr. Chen (Systems engineer)',
       size: 'May 26, 2022',
       source:
         './assets/Chen3.jpg',
-      href: "https://www.udemy.com/"
+    },
+    {
+      name: 'Mr. Brand (Aerospace engineer)',
+      size: 'September 22, 2022',
+      source:
+        './assets/Brand1.jpg',
+    },
+    {
+      name: 'Mr. Brand (Aerospace engineer)',
+      size: 'September 22, 2022',
+      source:
+        './assets/Brand2.jpg',
+    },
+    {
+      name: 'Mr. Brand (Aerospace engineer)',
+      size: 'September 22, 2022',
+      source:
+        './assets/Brand3.jpg',
     },
     
 
