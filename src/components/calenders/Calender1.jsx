@@ -88,7 +88,7 @@ export default function Calender() {
             <time dateTime="2022-01-17" className="w-28 flex-none">
               Thursday, October 13
             </time>
-            <p className="mt-2 flex-auto sm:mt-0">Our second presenter will be Mr. Melvin Hose a chemical engineer. He is scheduled for 2:20-3:00pm in room A13 and to check out his information click <a href='/CurrentPresenter' className='underline'>here</a> or visit the Scheduled Presenter page.</p>
+            <p className="mt-2 flex-auto sm:mt-0">Our second presenter will be Mr. Melvin Jose a chemical engineer. He is scheduled for 2:20-3:00pm in room A13 and to check out his information click <a href='/CurrentPresenter' className='underline'>here</a> or visit the Scheduled Presenter page.</p>
           </li>
         </ol>
       </section>

@@ -5,10 +5,10 @@ function CurrentPresenterList() {
     <div className="bg-gray-50 pt-9 lg:h-96">
       <div className="text-center lg:mb-24 md:mb-0">
         <p className="mt-1 pt-5 text-2xl font-bold tracking-tight text-black sm:text-5xl lg:text-6xl">
-          Melvin Hose
+          Melvin Jose
         </p>
         <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
-          On October 13, at 2:20 in room A13 we plan to have Mr. Hose. He
+          On October 13, at 2:20 in room A13 we plan to have Mr. Jose. He
           received his B.S in chemical engineering at Drexel University in 2007
           and from then on he has held a multitude of positions across many
           internationally renowned companies. In 2016 he worked for Johnson &
