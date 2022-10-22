@@ -10,7 +10,7 @@ import {
 
 const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Calender', href: '/calender1' },
+    { name: 'Calender', href: '/calender2' },
     { name: 'Fequently Asked Questions', href: '/FAQ' },
     { name: 'Past Presenters', href: '/pastpresenters' },
     { name: 'Scheduled Presenter', href: '/CurrentPresenter' },

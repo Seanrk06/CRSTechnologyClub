@@ -26,12 +26,6 @@ const files = [
         './assets/Chen2.jpg',
     },
     {
-      name: 'Mr. Chen (Systems engineer)',
-      size: 'May 26, 2022',
-      source:
-        './assets/Chen3.jpg',
-    },
-    {
       name: 'Mr. Brand (Aerospace engineer)',
       size: 'September 22, 2022',
       source:
@@ -44,12 +38,11 @@ const files = [
         './assets/Brand2.jpg',
     },
     {
-      name: 'Mr. Brand (Aerospace engineer)',
-      size: 'September 22, 2022',
+      name: 'Mr. Jose (Chemical engineer)',
+      size: 'October 13, 2022',
       source:
-        './assets/Brand3.jpg',
+        './assets/Jose1.jpg',
     },
-    
 
     // More files...
   ]
