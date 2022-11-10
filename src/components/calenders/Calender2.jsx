@@ -80,9 +80,9 @@ export default function Calender() {
         <ol className="mt-2 divide-y divide-gray-200 text-sm leading-6 text-gray-500">
           <li className="py-4 sm:flex">
             <time dateTime="2022-01-17" className="w-28 flex-none">
-              Thursday, November 10
+              Friday, November 11
             </time>
-            <p className="mt-2 flex-auto sm:mt-0">To be decided</p>
+            <p className="mt-2 flex-auto sm:mt-0">We plan to have Ann Jacob a former engineer who now works as a manufacturing manager at the world renowned Leonardo Defense and Space.</p>
           </li>
           <li className="py-4 sm:flex">
             <time dateTime="2022-01-17" className="w-28 flex-none">
