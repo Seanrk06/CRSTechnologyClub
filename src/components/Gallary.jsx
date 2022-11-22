@@ -43,6 +43,12 @@ const files = [
       source:
         './assets/Jose1.jpg',
     },
+    {
+      name: 'Mrs. Alex (Aeronautics/Electical engineer)',
+      size: 'November 11, 2022',
+      source:
+        './assets/Alex1.jpg',
+    },
 
     // More files...
   ]
@@ -69,7 +75,6 @@ function Gallary() {
                     Recently viewed
                   </h2>
                   <ul
-                    role="list"
                     className="grid grid-cols-2 gap-x-4 gap-y-8 sm:grid-cols-3 sm:gap-x-6 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8"
                   >
                     {files.map((file) => (
