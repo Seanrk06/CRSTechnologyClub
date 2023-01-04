@@ -1,6 +1,6 @@
 import React from "react";
 
-function CurrentPresenterList() {
+function CurrentEventList() {
   return (
     <div className="bg-gray-50 pt-9 lg:h-96">
       <div className="text-center lg:mb-24 md:mb-0">
@@ -15,4 +15,4 @@ function CurrentPresenterList() {
   );
 }
 
-export default CurrentPresenterList;
+export default CurrentEventList;

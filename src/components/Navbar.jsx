@@ -13,7 +13,7 @@ const navigation = [
     { name: 'Calender', href: '/calender2' },
     { name: 'Fequently Asked Questions', href: '/FAQ' },
     { name: 'Past Presenters', href: '/pastpresenters' },
-    { name: 'Scheduled Presenter', href: '/CurrentPresenter' },
+    { name: 'Scheduled Event', href: '/CurrentEvent' },
     { name: 'School Web Page', href: 'https://www.crsd.org/Domain/622' },
     { name: 'Contact Us', href: './ContactUs' },
 
