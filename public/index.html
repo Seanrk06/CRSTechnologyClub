@@ -53,7 +53,10 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <form name="contact" netlify netlify-honeypot="bot-field" method="post">\
+
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                             Email form one                              -->
+    <form name="contact" netlify netlify-honeypot="bot-field" method="post" hidden>
       <input type="hidden" name="form-name" value="contact" />
       <input type="text" name="Fname" />
       <input type="text" name="Lname" />
@@ -61,6 +64,20 @@
       <!-- <textarea name="message"></textarea> -->
       <button type="submit">Send</button>
     </form>
+    <!-- ----------------------------------------------------------------------- -->
+    
+    <!-- ----------------------------------------------------------------------- -->
+    <!--                            contact form two                             -->
+    <form name="contact2" netlify netlify-honeypot="bot-field" method="post" hidden>
+      <input type="hidden" name="form-name" value="contact" />
+      <input type="text" name="Fname" />
+      <input type="text" name="Lname" />
+      <input type="email" name="email" />
+      <textarea name="message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+    <!-- ----------------------------------------------------------------------- -->
+
     <div id="root"></div>
   </body>
 

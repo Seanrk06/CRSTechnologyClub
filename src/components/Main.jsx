@@ -1,21 +1,32 @@
-import React, { useState } from "react";
-import { MailchimpForm } from "./customForm";
-import ErrorAlert from "./errorAlert";
-import LoadingAlert from "./loadingAlert";
-import SucessAlert from "./sucessAlert";
+
+import CustomForm2 from "./customForm2";
+
+  /* ------------------------------Former mail chimp code-------------------------------------------- */
+// import React, { useState } from "react";
+//import { MailchimpForm } from "./customForm";
+// import ErrorAlert from "./errorAlert";
+// import LoadingAlert from "./loadingAlert";
+// import SucessAlert from "./sucessAlert";
+  /* -------------------------------------------------------------------------- */
 
 function Main(props) {
-  // For setting stae of alert (is passed to mailchimpform child then to customformchild)
-  const [errorState, setErrorState] = useState(false);
-  const [sucessState, setSucessState] = useState(false);
-  const [loadingState, setLoadingState] = useState(false);
 
-  console.log(errorState);
+  /* ------------------------------Former mail chimp code-------------------------------------------- */
+  // For setting stae of alert (is passed to mailchimpform child then to customformchild)
+  // const [errorState, setErrorState] = useState(false);
+  // const [sucessState, setSucessState] = useState(false);
+  // const [loadingState, setLoadingState] = useState(false);
+  // console.log(errorState);                                                          
+  /* -------------------------------------------------------------------------- */
+  
+
   return (
     <div>
-      <div>{errorState ? <ErrorAlert /> : null}</div>
+
+      {/* <div>{errorState ? <ErrorAlert /> : null}</div>
       <div>{sucessState ? <SucessAlert /> : null}</div>
-      <div>{loadingState ? <LoadingAlert /> : null}</div>
+      <div>{loadingState ? <LoadingAlert /> : null}</div> */}
+
       <div className="bg-gray-900 pt-10 sm:pt-16 lg:overflow-hidden lg:pt-8 lg:pb-14">
         <div className="mx-auto max-w-7xl lg:px-8">
           <div className="lg:grid lg:grid-cols-2 lg:gap-8">
@@ -42,57 +53,16 @@ function Main(props) {
                   newsletter below!
                 </p>
 
+                {  /* ------------------------------Former mail chimp code-------------------------------------------- */}
                 {/* MailChimp Form */}
-                <MailchimpForm
+                {/* <MailchimpForm
                   setSucessState={setSucessState}
                   setErrorState={setErrorState}
                   setLoadingState={setLoadingState}
-                />
-                <div className="mt-10 sm:mt-12 flex align-content: center">
-                  <form
-                    name="contact"
-                    className="sm:mx-auto sm:max-w-xl lg:mx-0"
-                    method="post"
-                    netlify-honeypot="bot-field"
-            
-                  >
+                /> */}
+                {  /* -------------------------------------------------------------------------- */}
 
-                    <input type="hidden" name="form-name" value="contact" />
-                    <p>
-                      <label>
-                        <input
-                          type="text"
-                          placeholder="First Name"
-                          name="Fname"
-                          className="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900 m-3"
-                        />
-                      </label>
-                    </p>
-                    <p>
-                      <label>
-                        Your Last Name:{" "}
-                        <input
-                          type="text"
-                          name="Lname"
-                          className="block w-full rounded-md border-0 px-4 py-3 text-base text-gray-900 placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900 m-3"
-                        />
-                      </label>
-                    </p>
-                    <p>
-                      <label>
-                        Your Email: <input type="email" name="email" />
-                      </label>
-                    </p>
-                    {/* <p>
-                    <label>
-                      Message: <textarea name="message"></textarea>
-                    </label>
-                  </p> */}
-                    <p>
-                      <button type="submit">Send</button>
-                    </p>
-                  </form>
-                </div>
+                <CustomForm2/>
               </div>
             </div>
             <div className="mt-12 -mb-16 sm:-mb-48 lg:relative lg:m-0">
