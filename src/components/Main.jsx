@@ -53,7 +53,10 @@ function Main(props) {
                     name="contact"
                     className="sm:mx-auto sm:max-w-xl lg:mx-0"
                     method="post"
+                    netlify-honeypot="bot-field"
+            
                   >
+
                     <input type="hidden" name="form-name" value="contact" />
                     <p>
                       <label>
