@@ -49,6 +49,26 @@ const files = [
       source:
         './assets/Alex1.jpg',
     },
+    {
+      name: 'Mrs. Spolsky (Food Scientist)',
+      size: 'March 9, 2023',
+      source:
+        './assets/Spolsky1.jpg',
+    },
+    {
+      name: 'Mr. McDonald (Student)',
+      size: 'Febuary 23, 2023',
+      source:
+        './assets/McDonald1.jpg',
+    },
+    {
+      name: 'Mr. Mathai (Computer Engineer)',
+      size: 'May 18, 2023',
+      source:
+        './assets/Mathai1.jpg',
+    },
+    
+
 
     // More files...
   ]
