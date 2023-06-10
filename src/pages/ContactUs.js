@@ -19,7 +19,7 @@ function ContactUs() {
           method="post"
           netlify-honeypot="bot-field"
         >
-          <input type="hidden" name="form-name" value="contact" />
+          <input type="hidden" name="form-name" value="contact2" />
           <p>
             <label>
               <input
