@@ -82,7 +82,7 @@ export default function Calender() {
             <time dateTime="2022-01-17" className="w-28 flex-none">
               Friday, November 11
             </time>
-            <p className="mt-2 flex-auto sm:mt-0">We had Ann Alex a former engineer who now works as a manufacturing manager at the world renowned Leonardo Defense and Space.</p>
+            <p className="mt-2 flex-auto sm:mt-0">To be decided</p>
           </li>
           <li className="py-4 sm:flex">
             <time dateTime="2022-01-17" className="w-28 flex-none">

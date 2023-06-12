@@ -10,9 +10,9 @@ import {
 
 const navigation = [
     { name: 'Home', href: '/' },
-    { name: 'Calender', href: '/calender2' },
+    { name: 'Calender', href: '/calender1' },
     { name: 'Fequently Asked Questions', href: '/FAQ' },
-    { name: 'Past Presenters', href: '/pastpresenters' },
+    { name: 'Past Events', href: '/pastpresenters' },
     { name: 'Scheduled Event', href: '/CurrentEvent' },
     { name: 'School Web Page', href: 'https://www.crsd.org/Domain/622' },
     { name: 'Contact Us', href: './ContactUs' },

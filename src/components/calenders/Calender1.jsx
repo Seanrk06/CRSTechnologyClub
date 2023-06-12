@@ -82,13 +82,13 @@ export default function Calender() {
             <time dateTime="2022-01-17" className="w-28 flex-none">
               Thursday, September 22
             </time>
-            <p className="mt-2 flex-auto sm:mt-0">Mr. Brand a aerospace engineer</p>
+            <p className="mt-2 flex-auto sm:mt-0">To be decided</p>
           </li>
           <li className="py-4 sm:flex">
             <time dateTime="2022-01-17" className="w-28 flex-none">
               Thursday, October 13
             </time>
-            <p className="mt-2 flex-auto sm:mt-0">Mr. Jose a chemical engineer.</p>
+            <p className="mt-2 flex-auto sm:mt-0">To be decided</p>
           </li>
         </ol>
       </section>

@@ -84,14 +84,14 @@ function PastPresenterList() {
           Ann Alex
         </p>
         <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
-          On November 11, we had  our third
-          presenter Ann Alex! Mrs. Alex has had an extensive career in
-          avionics, and electrical engineering. Mrs. Alex was not only 1st in
-          her class at internationally recognized Mahatma Gandhi National
-          University but also graduated with a bachelors in Electronical
-          Engineering. She has also received her Masters in Buisness
-          Adminstration. Mrs. Alex worked in both avionics and electrical
-          engineer in her time at Hindustan Aeronautics Limited linked{" "}
+          On November 11, we had our third presenter Ann Alex! Mrs. Alex has had
+          an extensive career in avionics, and electrical engineering. Mrs. Alex
+          was not only 1st in her class at internationally recognized Mahatma
+          Gandhi National University but also graduated with a bachelors in
+          Electronical Engineering. She has also received her Masters in
+          Buisness Adminstration. Mrs. Alex worked in both avionics and
+          electrical engineer in her time at Hindustan Aeronautics Limited
+          linked{" "}
           <a href="https://hal-india.co.in/" className="underline">
             here
           </a>
@@ -107,9 +107,54 @@ function PastPresenterList() {
           defence agencies, institutions and enterprises.
         </p>
       </div>
+      <div className="text-center">
+        <p className="mt-1 pt-5 text-2xl font-bold tracking-tight text-black sm:text-5xl lg:text-6xl">
+          3D printing Workshop
+        </p>
+        <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
+          On January 17th, Technology Club hosted a workshop on 3D printing.
+          During this workshop, we showed how to design a model using
+          industry-standard software and how engineers use these technologies in
+          their daily lives. We also guided students to bring their designs into
+          real life using state of the art 3d printers. Students kept their
+          creations as recognition of their achievements and their work. This
+          process was a great opportunity, especially for those looking to get
+          ahead of upcoming technology.
+        </p>
+      </div>
+      <div className="text-center">
+        <p className="mt-1 pt-5 text-2xl font-bold tracking-tight text-black sm:text-5xl lg:text-6xl">
+          Smantha Spolsky
+        </p>
+        <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
+          On March 9th, we featured special guest speaker Samantha Spolsky from
+          Penn State University. This event provided attendees with a unique
+          opportunity to explore the diverse prospects and intricacies of the
+          food science field. The guest speaker shared valuable insights into
+          the field, discussing its importance, applications, and the exciting
+          career opportunities it offers. Attendees had the chance to learn
+          about the latest advancements in food science and how it impacts
+          various industries, from agriculture to nutrition.
+        </p>
+      </div>
+      <div className="text-center">
+        <p className="mt-1 pt-5 text-2xl font-bold tracking-tight text-black sm:text-5xl lg:text-6xl">
+          Jacob Mathai
+        </p>
+        <p className="mx-auto mt-5 max-w-xl text-xl text-gray-500">
+          On May 19th, Technology Club hosted Jacob P. Mathai, a seasoned Senior
+          Information Technology Professional with a wealth of experience
+          managing complex systems in diverse industries such as education,
+          finance, healthcare, government, and nonprofits. He is an expert in
+          problem and incident management, proactive monitoring, data analysis,
+          and trend forecasting. He currently works at Rutgers University. With
+          proficiency in various technical areas, including networking,
+          software, hardware, and virtualization, Jacob leads and coordinates
+          teams to effectively resolve issues and minimize downtime.
+        </p>
+      </div>
     </div>
   );
 }
 
 export default PastPresenterList;
-
