@@ -4,12 +4,12 @@ function CustomForm2() {
   return (
     <div className="mt-10 sm:mt-12 flex align-content: center">
       <form
-        name="contact"
+        name="ContactUs"
         className="sm:mx-auto sm:max-w-xl lg:mx-0"
         method="post"
         netlify-honeypot="bot-field"
       >
-        <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="ContactUs" value="ContactUs" />
         <p>
           <label>
             <input
